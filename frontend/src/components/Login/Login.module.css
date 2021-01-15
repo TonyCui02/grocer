@@ -1,0 +1,73 @@
+.canvas {
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.pexels.com/photos/2131293/pexels-photo-2131293.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.context {
+  display: none;
+}
+
+.content {
+  background-color: white;
+  height: 100%;
+  padding: 20px 20px;
+  width: 100%;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  color: red;
+}
+
+.header {
+  padding-bottom: 20px;
+}
+
+.line {
+  border-bottom: 1px solid var(--bg-grey);
+}
+
+.buttonGrid {
+  padding: 20px 0;
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+}
+
+
+@media (min-width: 768px) {
+  .content {
+    width: 70%;
+    height: auto;
+    border-radius: 8px;
+    padding: 36px 64px;
+  }
+}
+
+@media (min-width: 992px) {
+  .context {
+    display: flex;
+    padding-right: 20%;
+  }
+
+  .content {
+    width: 50%;
+  }
+
+  .top {
+    display: none;
+  }
+
+  .logo {
+    filter: invert(100%);
+    width: 320px;
+  }
+
+  .canvas {
+    padding: 0 10%;
+  }
+}

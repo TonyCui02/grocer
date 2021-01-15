@@ -1,0 +1,46 @@
+
+/* main */
+.main {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 74px;
+}
+
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("https://images.unsplash.com/photo-1584908125631-d537dc63120d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2152&q=80");
+  background-position: 50% 60%;
+  background-size: cover;
+  position: relative;
+  border-radius: 16px;
+  margin: 15px 0;
+}
+
+.bannerHeader {
+  color: white;
+  margin: 24px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+
+.itemGrid {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-gap: 1rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: 34px;
+}
+
+
+.total {
+  padding: 20px 0;  
+}

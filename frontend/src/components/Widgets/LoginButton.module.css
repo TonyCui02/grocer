@@ -1,0 +1,33 @@
+.button {
+  background-color: var(--bg-white);
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 16px; /* Some padding */
+  cursor: pointer; 
+  border: 2px solid var(--bg-grey-dark);
+  border-radius: 50px;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: var(--bg-grey-dark);
+  transition: background-color 0.1s;
+}
+
+.text {
+  padding-left: 18px;
+  color: var(--txt-grey);
+  font-size: 14px; /* Set a font size */
+  font-weight: 650;
+}
+
+.image {
+  width: 18px;
+  height: auto;
+}

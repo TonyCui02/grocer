@@ -1,0 +1,11 @@
+.footer {
+  color: var(--txt-grey);
+  font-weight: 500;
+  height: auto;
+  padding: 20px 0;
+  background-color: var(--bg-grey-footer);
+}
+
+.footerText {
+  margin: 20px 0;
+}

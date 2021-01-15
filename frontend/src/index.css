@@ -1,0 +1,34 @@
+body, html, #root {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+button:focus {
+  outline: none;
+}
+
+
+/* custom var */
+:root {
+  --bg-grey: #eeeeee;
+  --bg-grey-light: #f5f5f5;
+  --bg-grey-dark: #e0e0e0;
+  --bg-grey-footer: #F4F5F7;
+  --txt-grey: #37474f;
+  --primary: #0052cc;
+  --primary-dark: #002b9a;
+  --secondary: #091E42;
+  --blue-grey: #eceff1;
+}
+/* 
+h1 {
+  font-weight: 600;
+  color: var(--txt-grey);
+  font-size: 36px;
+} */
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}

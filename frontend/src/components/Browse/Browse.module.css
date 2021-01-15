@@ -1,0 +1,17 @@
+.content {
+    background-color: var(--blue-grey)
+}
+
+.heading {
+    padding: 20px 0;
+    margin-top: 74px;
+    background-color: var(--primary);
+    color: white;
+}
+
+.cardGrid {
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
+    grid-gap: 1rem;
+}
