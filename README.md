@@ -1,6 +1,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-An open source project that provides price comparison between supermarkets. This project is non-profit and aims to help those suffering from food insecurity.
+A webapp that provides price comparison between supermarkets. This project is non-profit and aims to help those suffering from food insecurity.
 
 ### Built With
 
