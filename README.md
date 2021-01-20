@@ -4,9 +4,9 @@ An open source project that provides price comparison between supermarkets. This
 
 ### Built With
 
--Bootstrap
--React
--Material-ui
+Bootstrap
+React
+Material-ui
 
 
 
