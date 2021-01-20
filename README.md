@@ -4,9 +4,10 @@ An open source project that provides price comparison between supermarkets. This
 
 ### Built With
 
-Bootstrap
-React
-Material-ui
+Frontend:
+1. React
+2. Bootstrap
+3. Material UI
 
 
 
@@ -21,9 +22,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-1. `cd frontend
-2. `npm install
-3. `npm run
+1. `cd frontend`
+2. `npm install`
+3. `npm run`
 
 
 
