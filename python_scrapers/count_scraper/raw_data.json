@@ -1,0 +1,2832 @@
+{
+    "products": {
+        "items": [
+            {
+                "type": "Product",
+                "name": "eta uppercuts deli cut potato chips sea salt",
+                "barcode": "9414882451149",
+                "variety": "sea salt",
+                "brand": "eta uppercuts deli cut",
+                "slug": "eta-uppercuts-deli-cut-potato-chips-sea-salt",
+                "sku": "507900",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 2.8,
+                    "salePrice": 2.8,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9414882451149.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9414882451149.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 2.0,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "140g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "Other",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": {
+                        "name": "F2124 Eta Uppercut 140-150g 3FOR5 OOD ",
+                        "link": null,
+                        "imagePath": "/Content/PromotionTags/F20-OLOM-3-FOR-5.png"
+                    },
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "essentials cornflour ",
+                "barcode": "9414742014392",
+                "variety": null,
+                "brand": "essentials",
+                "slug": "essentials-cornflour",
+                "sku": "39128",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 1.5,
+                    "salePrice": 1.5,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9300633391287.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9300633391287.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 3.0,
+                    "cupMeasure": "1KG",
+                    "packageType": null,
+                    "volumeSize": "500g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPrice",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "whittakers chocolate block 28% cocoa white",
+                "barcode": "9403142000968",
+                "variety": "28% cocoa white",
+                "brand": "whittakers",
+                "slug": "whittakers-chocolate-block-28-cocoa-white",
+                "sku": "267056",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 5.3,
+                    "salePrice": 5.3,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9403142000968.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9403142000968.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 2.12,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "250g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsMultiBuy",
+                    "multiBuy": {
+                        "quantity": 2.0,
+                        "value": 8.5,
+                        "link": "/shop/productgroup/142027"
+                    },
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "countdown rice crackers brown rice & black sesame",
+                "barcode": "9400597008570",
+                "variety": "brown rice & black sesame",
+                "brand": "countdown",
+                "slug": "countdown-rice-crackers-brown-rice-black-sesame",
+                "sku": "897121",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 1.7,
+                    "salePrice": 1.7,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9400597008570.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9400597008570.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.7,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "100g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPrice",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "wattie's baked beans in tomato sauce",
+                "barcode": "9400547002634",
+                "variety": "in tomato sauce",
+                "brand": "wattie's",
+                "slug": "wattie-s-baked-beans-in-tomato-sauce",
+                "sku": "4424",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 2.2,
+                    "salePrice": 2.2,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9400547002634.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9400547002634.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.52,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "420g"
+                },
+                "hasShopperNotes": null,
+                "productTag": null,
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "copper kettle potato chips salt & vinegar",
+                "barcode": "9400566004480",
+                "variety": "salt & vinegar",
+                "brand": "copper kettle",
+                "slug": "copper-kettle-potato-chips-salt-vinegar",
+                "sku": "267947",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 3.79,
+                    "salePrice": 3.79,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9400566004480.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9400566004480.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 2.53,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "150g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsMultiBuy",
+                    "multiBuy": {
+                        "quantity": 2.0,
+                        "value": 5.0,
+                        "link": "/shop/productgroup/141975"
+                    },
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "henergy eggs dozen cage free size 7 744g",
+                "barcode": "9418584112070",
+                "variety": "cage free size 7 744g",
+                "brand": "henergy",
+                "slug": "henergy-eggs-dozen-cage-free-size-7-744g",
+                "sku": "352490",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 7.0,
+                    "salePrice": 7.0,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9418584112070.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9418584112070.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.58,
+                    "cupMeasure": "1EA",
+                    "packageType": "carton",
+                    "volumeSize": "12pk"
+                },
+                "hasShopperNotes": null,
+                "productTag": null,
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "watties ez squeeze tomato sauce ",
+                "barcode": "9300657155605",
+                "variety": null,
+                "brand": "watties ez squeeze",
+                "slug": "watties-ez-squeeze-tomato-sauce",
+                "sku": "270494",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 3.5,
+                    "salePrice": 3.5,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9300657155605.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9300657155605.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.62,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "565g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPrice",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "essentials pasta penne ribbed",
+                "barcode": "9300633100209",
+                "variety": "ribbed",
+                "brand": "essentials",
+                "slug": "essentials-pasta-penne-ribbed",
+                "sku": "188800",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 1.0,
+                    "salePrice": 1.0,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9300633100209.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9300633100209.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.2,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "500g"
+                },
+                "hasShopperNotes": null,
+                "productTag": null,
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "kelloggs nutrigrain cereal ",
+                "barcode": "9310055102149",
+                "variety": null,
+                "brand": "kelloggs nutrigrain",
+                "slug": "kelloggs-nutrigrain-cereal",
+                "sku": "806733",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 7.5,
+                    "salePrice": 7.5,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9310055102149.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9310055102149.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.72,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "435g"
+                },
+                "hasShopperNotes": null,
+                "productTag": null,
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "maggi 2 minute instant noodles multi pack chicken",
+                "barcode": "9556001137722",
+                "variety": "chicken",
+                "brand": "maggi 2 minute",
+                "slug": "maggi-2-minute-instant-noodles-multi-pack-chicken",
+                "sku": "343890",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 2.9,
+                    "salePrice": 2.9,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9556001137722.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9556001137722.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.81,
+                    "cupMeasure": "100G",
+                    "packageType": "72g each",
+                    "volumeSize": "5pk"
+                },
+                "hasShopperNotes": null,
+                "productTag": null,
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "heinz seriously good mayonnaise original",
+                "barcode": "9300657021160",
+                "variety": "original",
+                "brand": "heinz seriously good",
+                "slug": "heinz-seriously-good-mayonnaise-original",
+                "sku": "313789",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 5.6,
+                    "salePrice": 5.6,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9300657021160.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9300657021160.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.19,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "470g"
+                },
+                "hasShopperNotes": null,
+                "productTag": null,
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "pascall family pack marshmallows vanilla & raspberry",
+                "barcode": "9300617043003",
+                "variety": "vanilla & raspberry",
+                "brand": "pascall family pack",
+                "slug": "pascall-family-pack-marshmallows-vanilla-raspberry",
+                "sku": "828998",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 5.09,
+                    "salePrice": 5.09,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9300617043003.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9300617043003.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.98,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "520g"
+                },
+                "hasShopperNotes": null,
+                "productTag": null,
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "act i i microwave popcorn butter lovers 255g",
+                "barcode": "76150982398",
+                "variety": "butter lovers 255g",
+                "brand": "act i i microwave",
+                "slug": "act-i-i-microwave-popcorn-butter-lovers-255g",
+                "sku": "730210",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 4.5,
+                    "salePrice": 4.5,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/76150982398.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/76150982398.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.76,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "3pk"
+                },
+                "hasShopperNotes": null,
+                "productTag": null,
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "fantastic rice crackers bbq",
+                "barcode": "9310155001328",
+                "variety": "bbq",
+                "brand": "fantastic",
+                "slug": "fantastic-rice-crackers-bbq",
+                "sku": "35103",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 1.65,
+                    "salePrice": 1.65,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9310155001328.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9310155001328.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.65,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "100g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPriceMultiBuy",
+                    "multiBuy": {
+                        "quantity": 2.0,
+                        "value": 3.0,
+                        "link": "/shop/productgroup/141986"
+                    },
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "countdown crackers garlic",
+                "barcode": "9339687065943",
+                "variety": "garlic",
+                "brand": "countdown",
+                "slug": "countdown-crackers-garlic",
+                "sku": "805708",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 2.0,
+                    "salePrice": 2.0,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9339687065943.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9339687065943.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.08,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "185g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPrice",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "peckish thins rice crackers original",
+                "barcode": "9310288712542",
+                "variety": "original",
+                "brand": "peckish thins",
+                "slug": "peckish-thins-rice-crackers-original",
+                "sku": "330959",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 2.19,
+                    "salePrice": 2.19,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9310288712542.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9310288712542.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 2.19,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "100g"
+                },
+                "hasShopperNotes": null,
+                "productTag": null,
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "maggi recipe base mexican nachos",
+                "barcode": "9400556015366",
+                "variety": "mexican nachos",
+                "brand": "maggi",
+                "slug": "maggi-recipe-base-mexican-nachos",
+                "sku": "446478",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 1.7,
+                    "salePrice": 1.7,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9400556015366.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9400556015366.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 4.15,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "41g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsMultiBuy",
+                    "multiBuy": {
+                        "quantity": 2.0,
+                        "value": 3.0,
+                        "link": "/shop/productgroup/142001"
+                    },
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "countdown plain flour ",
+                "barcode": "9414742036325",
+                "variety": null,
+                "brand": "countdown",
+                "slug": "countdown-plain-flour",
+                "sku": "265271",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 6.7,
+                    "salePrice": 6.7,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9414742036325.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9414742036325.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.34,
+                    "cupMeasure": "1KG",
+                    "packageType": null,
+                    "volumeSize": "5kg"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPrice",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "indomie instant noodles multi pack mi goreng bbq chicken",
+                "barcode": "89686171914",
+                "variety": "mi goreng bbq chicken",
+                "brand": "indomie",
+                "slug": "indomie-instant-noodles-multi-pack-mi-goreng-bbq-chicken",
+                "sku": "269953",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 3.5,
+                    "salePrice": 3.0,
+                    "savePrice": 0.5,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": true,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/89686171914.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/89686171914.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.71,
+                    "cupMeasure": "100G",
+                    "packageType": "85g each",
+                    "volumeSize": "5pk"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsSpecial",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "griffins chocolate biscuits stripes",
+                "barcode": "9400553005070",
+                "variety": "stripes",
+                "brand": "griffins",
+                "slug": "griffins-chocolate-biscuits-stripes",
+                "sku": "270834",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 2.7,
+                    "salePrice": 2.7,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9400553005070.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9400553005070.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.35,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "200g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsMultiBuy",
+                    "multiBuy": {
+                        "quantity": 2.0,
+                        "value": 5.0,
+                        "link": "/shop/productgroup/141987"
+                    },
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "countdown canola oil ",
+                "barcode": "9400597023184",
+                "variety": null,
+                "brand": "countdown",
+                "slug": "countdown-canola-oil",
+                "sku": "648781",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 5.0,
+                    "salePrice": 5.0,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9400597023184.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9400597023184.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.25,
+                    "cupMeasure": "100ML",
+                    "packageType": null,
+                    "volumeSize": "2l"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPrice",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "heartland potato chips salt & vinegar",
+                "barcode": "9421902213014",
+                "variety": "salt & vinegar",
+                "brand": "heartland",
+                "slug": "heartland-potato-chips-salt-vinegar",
+                "sku": "746174",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 2.0,
+                    "salePrice": 2.0,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9421902213014.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9421902213014.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.33,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "150g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPrice",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "pics peanut butter smooth",
+                "barcode": "9421901881160",
+                "variety": "smooth",
+                "brand": "pics",
+                "slug": "pics-peanut-butter-smooth",
+                "sku": "754776",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 6.9,
+                    "salePrice": 6.9,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9421901881160.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9421901881160.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.82,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "380g"
+                },
+                "hasShopperNotes": null,
+                "productTag": null,
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "oak baked beans in tomato sce",
+                "barcode": "9400544002392",
+                "variety": "in tomato sce",
+                "brand": "oak",
+                "slug": "oak-baked-beans-in-tomato-sce",
+                "sku": "266024",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 1.3,
+                    "salePrice": 1.0,
+                    "savePrice": 0.3,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": true,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9400544002392.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9400544002392.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.24,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "420g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsSpecial",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "cadbury chocolate block caramilk",
+                "barcode": "9300617075547",
+                "variety": "caramilk",
+                "brand": "cadbury",
+                "slug": "cadbury-chocolate-block-caramilk",
+                "sku": "56949",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 3.49,
+                    "salePrice": 3.49,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9300617075547.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9300617075547.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.94,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "180g"
+                },
+                "hasShopperNotes": null,
+                "productTag": null,
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "countdown raw sugar ",
+                "barcode": "9400597023030",
+                "variety": null,
+                "brand": "countdown",
+                "slug": "countdown-raw-sugar",
+                "sku": "642186",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 2.3,
+                    "salePrice": 2.3,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9400597023030.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9400597023030.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.23,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "1kg"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPrice",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "mexicano corn chips natural",
+                "barcode": "9415684000023",
+                "variety": "natural",
+                "brand": "mexicano",
+                "slug": "mexicano-corn-chips-natural",
+                "sku": "704052",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 3.59,
+                    "salePrice": 3.59,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9415684000023.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9415684000023.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.2,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "300g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsMultiBuy",
+                    "multiBuy": {
+                        "quantity": 2.0,
+                        "value": 5.0,
+                        "link": "/shop/productgroup/141975"
+                    },
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "heartland potato chips southern salt",
+                "barcode": "9421902213007",
+                "variety": "southern salt",
+                "brand": "heartland",
+                "slug": "heartland-potato-chips-southern-salt",
+                "sku": "746171",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 2.0,
+                    "salePrice": 2.0,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9421902213007.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9421902213007.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.33,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "150g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPrice",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "whittakers chocolate block creamy caramel",
+                "barcode": "9403142001309",
+                "variety": "creamy caramel",
+                "brand": "whittakers",
+                "slug": "whittakers-chocolate-block-creamy-caramel",
+                "sku": "289288",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 5.3,
+                    "salePrice": 5.3,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9403142001309.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9403142001309.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 2.12,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "250g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsMultiBuy",
+                    "multiBuy": {
+                        "quantity": 2.0,
+                        "value": 8.5,
+                        "link": "/shop/productgroup/142027"
+                    },
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "countdown maple syrup ",
+                "barcode": "9300633967475",
+                "variety": null,
+                "brand": "countdown",
+                "slug": "countdown-maple-syrup",
+                "sku": "298476",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 7.5,
+                    "salePrice": 7.5,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9300633967475.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9300633967475.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 3.0,
+                    "cupMeasure": "100ML",
+                    "packageType": null,
+                    "volumeSize": "250ml"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPrice",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "griffins macaroon chocolate biscuits macaroon",
+                "barcode": "9400553010746",
+                "variety": "macaroon",
+                "brand": "griffins macaroon",
+                "slug": "griffins-macaroon-chocolate-biscuits-macaroon",
+                "sku": "271167",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 3.7,
+                    "salePrice": 3.7,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9400553010746.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9400553010746.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.85,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "200g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsMultiBuy",
+                    "multiBuy": {
+                        "quantity": 2.0,
+                        "value": 5.0,
+                        "link": "/shop/productgroup/141987"
+                    },
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "countdown baked beans in tomato sauce",
+                "barcode": "9300633617721",
+                "variety": "in tomato sauce",
+                "brand": "countdown",
+                "slug": "countdown-baked-beans-in-tomato-sauce",
+                "sku": "47682",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 0.8,
+                    "salePrice": 0.8,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9300633617721.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9300633617721.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.19,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "420g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPrice",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "sanitarium rice bubbles ricies",
+                "barcode": "9414942801273",
+                "variety": "ricies",
+                "brand": "sanitarium",
+                "slug": "sanitarium-rice-bubbles-ricies",
+                "sku": "324624",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 3.2,
+                    "salePrice": 2.2,
+                    "savePrice": 1.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": true,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9414942801273.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9414942801273.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.8,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "275g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsSpecial",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "countdown pears slices in juice",
+                "barcode": "9300633948757",
+                "variety": "slices in juice",
+                "brand": "countdown",
+                "slug": "countdown-pears-slices-in-juice",
+                "sku": "263993",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 1.3,
+                    "salePrice": 1.3,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9300633948757.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9300633948757.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.32,
+                    "cupMeasure": "100G",
+                    "packageType": "can",
+                    "volumeSize": "410g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPrice",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "delmaine tomatoes crushed in juice",
+                "barcode": "9416107519542",
+                "variety": "crushed in juice",
+                "brand": "delmaine",
+                "slug": "delmaine-tomatoes-crushed-in-juice",
+                "sku": "270717",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 1.85,
+                    "salePrice": 1.4,
+                    "savePrice": 0.45,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": true,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9416107519542.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9416107519542.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.35,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "400g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsSpecial",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "sealord sensations tuna lemon pepper",
+                "barcode": "9415022031122",
+                "variety": "lemon pepper",
+                "brand": "sealord sensations",
+                "slug": "sealord-sensations-tuna-lemon-pepper",
+                "sku": "200966",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 2.19,
+                    "salePrice": 2.19,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9415022031122.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9415022031122.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 2.31,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "95g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "Other",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": {
+                        "name": "F21 Glass Containers Bonus eStamp - RW",
+                        "link": "/shop/productgroup/141898",
+                        "imagePath": "/Content/PromotionTags/F2120-Tag-Glass-Containers.png"
+                    },
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "ritz crackers original",
+                "barcode": "9310034000367",
+                "variety": "original",
+                "brand": "ritz",
+                "slug": "ritz-crackers-original",
+                "sku": "660562",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 2.5,
+                    "salePrice": 2.5,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9310034000367.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9310034000367.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.83,
+                    "cupMeasure": "100G",
+                    "packageType": "3 x 100g pks",
+                    "volumeSize": "300g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPrice",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "oreo creme filled original 230g",
+                "barcode": "9300650013674",
+                "variety": "original 230g",
+                "brand": "oreo",
+                "slug": "oreo-creme-filled-original-230g",
+                "sku": "788789",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 3.5,
+                    "salePrice": 2.5,
+                    "savePrice": 1.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": true,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9300650013674.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9300650013674.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.09,
+                    "cupMeasure": "100G",
+                    "packageType": "multipack",
+                    "volumeSize": "10pk"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsSpecial",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "griffins snax crackers original",
+                "barcode": "9400553447405",
+                "variety": "original",
+                "brand": "griffins snax",
+                "slug": "griffins-snax-crackers-original",
+                "sku": "775663",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 1.8,
+                    "salePrice": 1.8,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9400553447405.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9400553447405.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.33,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "135g"
+                },
+                "hasShopperNotes": null,
+                "productTag": null,
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "oak spaghetti in tomato sce",
+                "barcode": "9400544002095",
+                "variety": "in tomato sce",
+                "brand": "oak",
+                "slug": "oak-spaghetti-in-tomato-sce",
+                "sku": "266027",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 1.3,
+                    "salePrice": 1.0,
+                    "savePrice": 0.3,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": true,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9400544002095.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9400544002095.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.24,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "420g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsSpecial",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "essentials vinegar white",
+                "barcode": "9300633947064",
+                "variety": "white",
+                "brand": "essentials",
+                "slug": "essentials-vinegar-white",
+                "sku": "94706",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 3.7,
+                    "salePrice": 3.7,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9300633947064.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9300633947064.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.19,
+                    "cupMeasure": "100ML",
+                    "packageType": null,
+                    "volumeSize": "2l"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPrice",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "sanitarium skippy cornflakes ",
+                "barcode": "9414942030307",
+                "variety": null,
+                "brand": "sanitarium skippy",
+                "slug": "sanitarium-skippy-cornflakes",
+                "sku": "266586",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 3.2,
+                    "salePrice": 2.2,
+                    "savePrice": 1.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": true,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9414942030307.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9414942030307.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.73,
+                    "cupMeasure": "100G",
+                    "packageType": "bag",
+                    "volumeSize": "300g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsSpecial",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "essentials peanut butter smooth",
+                "barcode": "9414742037971",
+                "variety": "smooth",
+                "brand": "essentials",
+                "slug": "essentials-peanut-butter-smooth",
+                "sku": "269954",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 2.1,
+                    "salePrice": 2.1,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9414742037971.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9414742037971.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 0.56,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "375g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPrice",
+                    "multiBuy": null,
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "whittakers chocolate block berry & biscuit",
+                "barcode": "9403142002436",
+                "variety": "berry & biscuit",
+                "brand": "whittakers",
+                "slug": "whittakers-chocolate-block-berry-biscuit",
+                "sku": "708938",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 5.3,
+                    "salePrice": 5.3,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9403142002436.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9403142002436.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 2.12,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "250g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsMultiBuy",
+                    "multiBuy": {
+                        "quantity": 2.0,
+                        "value": 8.5,
+                        "link": "/shop/productgroup/142027"
+                    },
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "bluebird thin cut potato chips ready salted",
+                "barcode": "9400566008105",
+                "variety": "ready salted",
+                "brand": "bluebird thin cut",
+                "slug": "bluebird-thin-cut-potato-chips-ready-salted",
+                "sku": "297603",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 2.2,
+                    "salePrice": 2.2,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9400566005258.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9400566005258.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.57,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "140g"
+                },
+                "hasShopperNotes": null,
+                "productTag": null,
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "greggs jelly crystals lime flavoured",
+                "barcode": "9400574004052",
+                "variety": "lime flavoured",
+                "brand": "greggs",
+                "slug": "greggs-jelly-crystals-lime-flavoured",
+                "sku": "273815",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 0.99,
+                    "salePrice": 0.99,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9400574004052.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9400574004052.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.16,
+                    "cupMeasure": "100G",
+                    "packageType": "box",
+                    "volumeSize": "85g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsGreatPriceMultiBuy",
+                    "multiBuy": {
+                        "quantity": 5.0,
+                        "value": 4.0,
+                        "link": "/shop/productgroup/141436"
+                    },
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            },
+            {
+                "type": "Product",
+                "name": "griffins meal mates crackers original",
+                "barcode": "9400553436188",
+                "variety": "original",
+                "brand": "griffins meal mates",
+                "slug": "griffins-meal-mates-crackers-original",
+                "sku": "312722",
+                "unit": "Each",
+                "selectedPurchasingUnit": null,
+                "price": {
+                    "originalPrice": 3.0,
+                    "salePrice": 3.0,
+                    "savePrice": 0.0,
+                    "hasBonusPoints": false,
+                    "isClubPrice": false,
+                    "isSpecial": false,
+                    "isNew": false,
+                    "canShowOriginalPrice": true,
+                    "discount": null,
+                    "total": null,
+                    "isTargetedOffer": false,
+                    "averagePricePerSingleUnit": null
+                },
+                "images": {
+                    "small": "https://static.countdown.co.nz/assets/product-images/small/9400553436188.jpg",
+                    "big": "https://static.countdown.co.nz/assets/product-images/big/9400553436188.jpg"
+                },
+                "quantity": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "increment": 1.0,
+                    "value": null
+                },
+                "eachUnitQuantity": null,
+                "averageWeightPerUnit": null,
+                "size": {
+                    "cupPrice": 1.3,
+                    "cupMeasure": "100G",
+                    "packageType": null,
+                    "volumeSize": "230g"
+                },
+                "hasShopperNotes": null,
+                "productTag": {
+                    "tagType": "IsMultiBuy",
+                    "multiBuy": {
+                        "quantity": 2.0,
+                        "value": 5.0,
+                        "link": "/shop/productgroup/141987"
+                    },
+                    "bonusPoints": null,
+                    "additionalTag": null,
+                    "targetedOffer": null
+                },
+                "subsAllowed": false,
+                "supportsBothEachAndKgPricing": false
+            }
+        ],
+        "totalItems": 4988
+    },
+    "dasFacets": [
+        {
+            "key": "Aisle",
+            "value": "55",
+            "isBooleanValue": false,
+            "name": "Eggs",
+            "productCount": 82,
+            "group": "Aisle"
+        },
+        {
+            "key": "Aisle",
+            "value": "56",
+            "isBooleanValue": false,
+            "name": "Baking",
+            "productCount": 448,
+            "group": "Aisle"
+        },
+        {
+            "key": "Aisle",
+            "value": "57",
+            "isBooleanValue": false,
+            "name": "Cereals & Spreads",
+            "productCount": 427,
+            "group": "Aisle"
+        },
+        {
+            "key": "Aisle",
+            "value": "58",
+            "isBooleanValue": false,
+            "name": "Bulk Foods",
+            "productCount": 133,
+            "group": "Aisle"
+        },
+        {
+            "key": "Aisle",
+            "value": "59",
+            "isBooleanValue": false,
+            "name": "Tinned Foods",
+            "productCount": 591,
+            "group": "Aisle"
+        },
+        {
+            "key": "Aisle",
+            "value": "60",
+            "isBooleanValue": false,
+            "name": "Herbs, Spices & Stock",
+            "productCount": 265,
+            "group": "Aisle"
+        },
+        {
+            "key": "Aisle",
+            "value": "61",
+            "isBooleanValue": false,
+            "name": "Pasta, Noodles & Grains",
+            "productCount": 335,
+            "group": "Aisle"
+        },
+        {
+            "key": "Aisle",
+            "value": "62",
+            "isBooleanValue": false,
+            "name": "Oil, Vinegar & Condiments",
+            "productCount": 521,
+            "group": "Aisle"
+        },
+        {
+            "key": "Aisle",
+            "value": "63",
+            "isBooleanValue": false,
+            "name": "Sauces & Pastes",
+            "productCount": 574,
+            "group": "Aisle"
+        },
+        {
+            "key": "Aisle",
+            "value": "64",
+            "isBooleanValue": false,
+            "name": "Meal Kits",
+            "productCount": 179,
+            "group": "Aisle"
+        },
+        {
+            "key": "Aisle",
+            "value": "65",
+            "isBooleanValue": false,
+            "name": "Desserts",
+            "productCount": 158,
+            "group": "Aisle"
+        },
+        {
+            "key": "Aisle",
+            "value": "66",
+            "isBooleanValue": false,
+            "name": "Snacks & Sweets",
+            "productCount": 1135,
+            "group": "Aisle"
+        },
+        {
+            "key": "Aisle",
+            "value": "67",
+            "isBooleanValue": false,
+            "name": "Biscuits & Crackers",
+            "productCount": 418,
+            "group": "Aisle"
+        }
+    ],
+    "facets": [
+        {
+            "key": "All",
+            "value": "All",
+            "isBooleanValue": true,
+            "name": "All",
+            "productCount": 2520,
+            "group": "Specials & Great Prices"
+        },
+        {
+            "key": "Special",
+            "value": "Special",
+            "isBooleanValue": true,
+            "name": "Special",
+            "productCount": 960,
+            "group": "Specials & Great Prices"
+        },
+        {
+            "key": "Great Price",
+            "value": "Great Price",
+            "isBooleanValue": true,
+            "name": "Great Price",
+            "productCount": 1240,
+            "group": "Specials & Great Prices"
+        },
+        {
+            "key": "Multibuy",
+            "value": "Multibuy",
+            "isBooleanValue": true,
+            "name": "Multibuy",
+            "productCount": 400,
+            "group": "Specials & Great Prices"
+        },
+        {
+            "key": "Onecard Club",
+            "value": "Onecard Club",
+            "isBooleanValue": true,
+            "name": "Onecard Club",
+            "productCount": 316,
+            "group": "Specials & Great Prices"
+        },
+        {
+            "key": "PiesAttributes",
+            "value": "Dairy Free",
+            "isBooleanValue": false,
+            "name": "Dairy Free",
+            "productCount": 2246,
+            "group": "Dietary & Lifestyle"
+        },
+        {
+            "key": "PiesAttributes",
+            "value": "Gluten Free",
+            "isBooleanValue": false,
+            "name": "Gluten Free",
+            "productCount": 2176,
+            "group": "Dietary & Lifestyle"
+        },
+        {
+            "key": "PiesAttributes",
+            "value": "Low Salt",
+            "isBooleanValue": false,
+            "name": "Low Salt",
+            "productCount": 1425,
+            "group": "Dietary & Lifestyle"
+        },
+        {
+            "key": "PiesAttributes",
+            "value": "Low Sugar",
+            "isBooleanValue": false,
+            "name": "Low Sugar",
+            "productCount": 1740,
+            "group": "Dietary & Lifestyle"
+        },
+        {
+            "key": "PiesAttributes",
+            "value": "Organic",
+            "isBooleanValue": false,
+            "name": "Organic",
+            "productCount": 149,
+            "group": "Dietary & Lifestyle"
+        },
+        {
+            "key": "PiesAttributes",
+            "value": "Vegan",
+            "isBooleanValue": false,
+            "name": "Vegan",
+            "productCount": 1809,
+            "group": "Dietary & Lifestyle"
+        },
+        {
+            "key": "PiesAttributes",
+            "value": "Vegetarian",
+            "isBooleanValue": false,
+            "name": "Vegetarian",
+            "productCount": 2436,
+            "group": "Dietary & Lifestyle"
+        }
+    ],
+    "sortOptions": [
+        {
+            "value": "PriceAsc",
+            "text": "Price Low to High",
+            "selected": false
+        },
+        {
+            "value": "PriceDesc",
+            "text": "Price High to Low",
+            "selected": false
+        },
+        {
+            "value": "CUPAsc",
+            "text": "Unit Price Low to High",
+            "selected": false
+        },
+        {
+            "value": "BrowseRelevance",
+            "text": "Relevance",
+            "selected": true
+        }
+    ],
+    "currentPageSize": 48,
+    "currentSortOption": "BrowseRelevance",
+    "breadcrumb": {
+        "department": {
+            "key": "Department",
+            "value": 6,
+            "isBooleanValue": false,
+            "name": "Pantry",
+            "productCount": 0,
+            "group": null
+        },
+        "aisle": null,
+        "shelf": null,
+        "productGroup": null,
+        "dynamicGroup": null
+    },
+    "partialFailures": {
+        "shopperNotesFetchFailed": null,
+        "maxSupplyLimitFetchFailed": null,
+        "trolleyQuantityUpdateFailed": null,
+        "productTagFetchFailed": null,
+        "breadcrumbGenerationFailed": null,
+        "productGroupFetchFailed": null,
+        "targetOfferFetchFailed": null
+    },
+    "targetedOfferDetails": null,
+    "isSuccessful": true,
+    "rootUrl": "http://shop.countdown.co.nz",
+    "context": {
+        "shopper": {
+            "firstName": null,
+            "isShopper": false,
+            "isLoggedIn": false,
+            "hasOnecard": null,
+            "oneCardBalance": null,
+            "shopperIdHash": null,
+            "shopperScvId": null,
+            "sessionGroups": null,
+            "orderCount": null,
+            "isSupplyLimitOverrideShopper": false,
+            "isPriorityShopper": false,
+            "hasDeliveryPass": false,
+            "isChangingOrder": false,
+            "changingOrderId": null
+        },
+        "fulfilment": {
+            "address": "Glenfield",
+            "selectedDate": null,
+            "selectedDateWithTZInfo": null,
+            "startTime": null,
+            "endTime": null,
+            "method": "Courier",
+            "cutOffTime": null,
+            "isSlotToday": false,
+            "isAddressInDeliveryZone": true,
+            "isDefaultDeliveryAddress": false,
+            "areaId": 256,
+            "fulfilmentStoreId": 9101,
+            "perishableCode": "P"
+        },
+        "enabledFeatures": [
+            "ManageAddress",
+            "NewProductStamps",
+            "Search",
+            "Specials",
+            "RouteToNewShopAngularApp",
+            "PiesFiltersUI",
+            "Over18Checkbox",
+            "DetermineStoreFromAddress",
+            "ViewTrolley",
+            "HaveYouForgotten",
+            "ReviewOrder",
+            "ProjectShore",
+            "BasketOnSearchForMobile",
+            "BiteSizedRewardsHeader"
+        ],
+        "shoppingListItems": [],
+        "basketTotals": null,
+        "advancedSettingsResponse": null
+    },
+    "messages": null
+}
