@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React, { useState, useEffect } from 'react';
+import axios from 'axios'
 
-
-export default function useApi(initialUrl) {
+export default function FindDetails(item_id) {
   const [data, setData] = useState([]);
-  const [url, setUrl] = useState(initialUrl);
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);
 
@@ -14,7 +12,7 @@ export default function useApi(initialUrl) {
       setIsLoading(true);
 
       try {
-        const result = await axios.get(url);
+        const result = await axios.get(`/api/v1/products/${item_id}`);
 
         setData(result.data);
       } catch (error) {
@@ -25,7 +23,7 @@ export default function useApi(initialUrl) {
     };
 
     fetchData();
-  }, [url]);
+  }, []);
 
-  return [{ data, isLoading, isError }, setUrl];
+  return data;
 }

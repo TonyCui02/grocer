@@ -1,7 +1,4 @@
-import styles from "./Card.module.css";
-import { Link } from "react-router-dom";
-import axios from "axios";
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
@@ -10,6 +7,8 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+
+import useApi from '../../hooks/useApi';
 
 const useStyles = makeStyles({
   root: {
@@ -28,8 +27,16 @@ const useStyles = makeStyles({
   },
 });
 
-export default function MediaCard() {
+export default function MediaCard(props) {
   const classes = useStyles();
+  const [isDisabled, setIsDisabled] = useState(false); 
+  const [{ data, isLoading, isError }, setUrl] = useApi();
+
+  useEffect(() => {
+    setUrl(`/api/v1/products/${props.shop}?id=${props.id}`);
+  }, [])
+
+  console.log(data)
 
   return (
     <Card className={classes.root}>
@@ -37,24 +44,24 @@ export default function MediaCard() {
         <CardMedia
           className={classes.media}
           component="img"
-          alt="Contemplative Reptile"
-          image="https://a.fsimg.co.nz/product/retail/fan/image/200x200/5017010.png"
-          title="Contemplative Reptile"
+          alt="Product image"
+          image={props.img}
+          title="Product image"
         />
         <CardContent>
           <Typography gutterBottom variant="body1" component="h2">
-            Natures fresh toast bread white
+            {props.name}
           </Typography>
           <Typography variant="body1" color="textSecondary" component="p">
-            700g
+            {props.volumeSize}
           </Typography>
           <Typography variant="h4" component="h3">
-            $2.80
+            ${props.price}
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button variant="contained" color="primary" className={classes.button}>
+        <Button disabled={isDisabled} href={props.href} variant="contained" color="primary" className={classes.button}  onClick={() => { setIsDisabled(true); }}>
           Select Item
         </Button>
       </CardActions>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./Header.module.css";
 import { ReactComponent as Logo } from "../Images/logo.svg";
 
@@ -14,9 +14,12 @@ import SearchIcon from "@material-ui/icons/Search";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import Button from "@material-ui/core/Button";
 
+import axios from 'axios';
+
 import firebase from "firebase/app";
 import "firebase/auth";
-import { FilterNone } from "@material-ui/icons";
+
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -101,8 +104,23 @@ function HideOnScroll(props) {
 
 export default function Header(props) {
   const classes = useStyles(props);
+  const [createDisabled, setCreateDisabled] = useState(false);
 
   const auth = firebase.auth();
+
+  function handleChange(e) {
+    props.setInput(e.target.value);
+  }
+
+  const handleCreate = () => {
+    axios.post('/api/v1/items', {
+        "name": "bread",
+        "count_id": "test",
+        "pak_id": "test",
+        "user": "gohAn8TkhyeM41WT8ZGqcnCa9N23"
+      })
+      alert('item created')
+  }
 
   return (
     <div className={classes.root}>
@@ -126,17 +144,20 @@ export default function Header(props) {
               <div className={classes.searchIcon}>
                 <SearchIcon />
               </div>
-              <InputBase
-                placeholder="Search…"
-                classes={{
-                  root: classes.inputRoot,
-                  input: classes.inputInput,
-                }}
-                inputProps={{ "aria-label": "search" }}
-              />
+              <form onSubmit={props.onSearch}>
+                <InputBase
+                  placeholder="Search…"
+                  classes={{
+                    root: classes.inputRoot,
+                    input: classes.inputInput,
+                  }}
+                  inputProps={{ "aria-label": "search" }}
+                  onChange={handleChange}
+                />
+              </form>
             </div>
             <div className={classes.right}>
-              <Button variant="contained" color="primary" className={classes.create}>
+              <Button href='/' disabled={createDisabled} onClick={() => { handleCreate(); setCreateDisabled(true) }} variant="contained" color="primary" className={classes.create}>
                 Create
               </Button>
               <IconButton

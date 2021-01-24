@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import styles from "./Dashboard.module.css";
 
 import Header from "../Common/Header";
@@ -11,9 +11,16 @@ import axios from "axios";
 
 import { Redirect } from "react-router-dom";
 import useApi from "../../hooks/useApi";
+import UserContext from '../../context/UserContext';
+import FindDetails from './FindDetails';
 
 export default function Dashboard() {
   const [{ data, isLoading, isError }, setUrl] = useApi();
+  const user = useContext(UserContext)
+
+  useEffect(() => {
+    setUrl(`/api/v1/items?user=${user.uid}`);
+  }, [])
 
   if (isLoading) {
     return <div>Loading...</div>;
@@ -40,14 +47,12 @@ export default function Dashboard() {
             </div>
 
             <div className={styles.itemGrid}>
-              <DashboardCard>
-                <Card />
-                <Card />
-              </DashboardCard>
-              <DashboardCard>
-                <Card />
-                <Card />
-              </DashboardCard>
+              {data.map((item) => (
+                <DashboardCard data={item}>
+                  <Card shop="count" id={item.count_id} href={`/browse?shop=count`} />
+                  <Card shop="pak" id={item.pak_id} href={`/browse?shop=pak`} />
+                </DashboardCard>
+              ))}
             </div>
 
             <div className={styles.total}>
@@ -81,15 +86,3 @@ export default function Dashboard() {
     );
   }
 }
-
-// sample data
-// [
-//   {
-//       "_id": "5ff8cc11ee723e0b105e24c5",
-//       "item_id": 123,
-//       "item_name": "bread"
-//   },
-//   {
-//       "_id": "5ff8cc11ee723e0b105e24c6"
-//   }
-// ]

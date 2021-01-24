@@ -1,3 +1,4 @@
+import React, { createContext } from 'react';
 import {
   Switch,
   BrowserRouter as Router,
@@ -9,6 +10,7 @@ import styles from "./App.css";
 import Login from "./components/Login/Login";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Browse from "./components/Browse/Browse";
+import UserContext from './context/UserContext';
 
 // this section configures the app for firebase authentication
 import firebase from "firebase/app";
@@ -53,13 +55,13 @@ export default function App() {
           return user !== null ? (
             children
           ) : (
-            <Redirect
-              to={{
-                pathname: "/",
-                state: { from: location },
-              }}
-            />
-          );
+              <Redirect
+                to={{
+                  pathname: "/",
+                  state: { from: location },
+                }}
+              />
+            );
         }}
       />
     );
@@ -73,25 +75,27 @@ export default function App() {
     console.log(user);
     return (
       <div className="App">
-        <Router>
-          <Switch>
-            <Route exact path="/">
-              {user ? (
-                <Dashboard />
-              ) : (
-                <Login fb={signInWithFacebook} google={signInWithGoogle} />
-              )}
-            </Route>
-            <PrivateRoute path="/browse">
-              <Browse />
-            </PrivateRoute>
-            <Route>
-              <div>
-                <h1>404 not found</h1>
-              </div>
-            </Route>
-          </Switch>
-        </Router>
+        <UserContext.Provider value={user}>
+          <Router>
+            <Switch>
+              <Route exact path="/">
+                {user ? (
+                  <Dashboard />
+                ) : (
+                    <Login fb={signInWithFacebook} google={signInWithGoogle} />
+                  )}
+              </Route>
+              <PrivateRoute path="/browse">
+                <Browse />
+              </PrivateRoute>
+              <Route>
+                <div>
+                  <h1>404 not found</h1>
+                </div>
+              </Route>
+            </Switch>
+          </Router>
+        </UserContext.Provider>
       </div>
     );
   }

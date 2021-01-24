@@ -4,10 +4,17 @@ let PakProduct = require('../models/pakProduct.model')
 
 // pak get & post
 router.route('/pak').get((req, res) => {
-    PakProduct.find()
+    PakProduct.find( { $text: { $search: req.query.name } } ).limit(50)
         .then(product => res.json(product))
         .catch(err => res.status(400).json('Error: ' + err));
 });
+
+router.route('/pak/:id').get((req, res) => {
+    PakProduct.find({ id: req.params.id })
+        .then(product => res.json(product))
+        .catch(err => res.status(400).json('Error: ' + err));
+});
+
 
 router.route('/pak').post((req, res) => {
     const id = req.body.id;
@@ -33,9 +40,21 @@ router.route('/pak').post((req, res) => {
 
 // count get & post
 router.route('/count').get((req, res) => {
-    CountProduct.find()
+    CountProduct.find( { $text: { $search: req.query.name } } ).limit(50)
         .then(product => res.json(product))
         .catch(err => res.status(400).json('Error: ' + err));
+});
+
+router.route('/count/:id').get((req, res) => {
+    CountProduct.find({ id: parseInt("69865")  })
+        .then(product => res.json(product))
+        .catch(err => res.status(400).json('Error: ' + err));
+});
+
+router.route('/count/test').get((req, res) => {
+    CountProduct.find({name: {$exists:true}}).forEach( function(x) {
+        db.temp.update({_id: x._id}, {$set: {id: x.id.toString()}});
+    });
 });
 
 router.route('/count').post((req, res) => {

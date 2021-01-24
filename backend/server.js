@@ -26,10 +26,12 @@ connection.once('open', () => {
 
 // setup routes
 const usersRouter = require('./routes/users');
-const productsRouter = require('./routes/products')
+const productsRouter = require('./routes/products');
+const itemsRouter = require('./routes/items');
 
 app.use('/api/v1/users', usersRouter);
 app.use('/api/v1/products', productsRouter);
+app.use('/api/v1/items', itemsRouter);
 
 
 // server port ouput to console

@@ -27,19 +27,16 @@
   font-weight: bold;
 }
 
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 .itemGrid {
   display: grid;
-  grid-template-rows: 50% 50%;
+  grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   grid-gap: 1rem;
 }
-
-.row {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  margin-left: 34px;
-}
-
 
 .total {
   padding: 20px 0;  
