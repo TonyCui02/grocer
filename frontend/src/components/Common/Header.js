@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import styles from "./Header.module.css";
 import { ReactComponent as Logo } from "../Images/logo.svg";
 
@@ -16,6 +16,7 @@ import Button from "@material-ui/core/Button";
 
 import axios from 'axios';
 
+import UserContext from '../../context/UserContext';
 import firebase from "firebase/app";
 import "firebase/auth";
 
@@ -105,19 +106,21 @@ function HideOnScroll(props) {
 export default function Header(props) {
   const classes = useStyles(props);
   const [createDisabled, setCreateDisabled] = useState(false);
-
+  const user = useContext(UserContext)
   const auth = firebase.auth();
+
 
   function handleChange(e) {
     props.setInput(e.target.value);
   }
 
+
   const handleCreate = () => {
     axios.post('/api/v1/items', {
-        "name": "bread",
+        "name": "",
         "count_id": "test",
         "pak_id": "test",
-        "user": "gohAn8TkhyeM41WT8ZGqcnCa9N23"
+        "user": `${user.uid}`
       })
       alert('item created')
   }
@@ -158,7 +161,7 @@ export default function Header(props) {
             </div>
             <div className={classes.right}>
               <Button href='/' disabled={createDisabled} onClick={() => { handleCreate(); setCreateDisabled(true) }} variant="contained" color="primary" className={classes.create}>
-                Create
+                Create New Item
               </Button>
               <IconButton
                 className={classes.cart}
@@ -175,26 +178,4 @@ export default function Header(props) {
       </HideOnScroll>
     </div>
   );
-
-  // const auth = firebase.auth();
-
-  // return (
-  //   <div className={styles.wrapper}>
-  //     <div className="container">
-  //       <header className={styles.header}>
-  //         <div className={styles.headerLogo}>
-  //           <a href="/">
-  //             <Logo height="50" width="50" className={styles.logo} />
-  //           </a>
-  //         </div>
-  //         <div className={styles.headerRight}>
-  //           <div className={styles.cartWrapper}>
-  //             <BtnCart />
-  //           </div>
-  //           <BtnCircle logout={() => auth.signOut()} />
-  //         </div>
-  //       </header>
-  //     </div>
-  //   </div>
-  // );
 }

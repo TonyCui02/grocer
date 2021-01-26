@@ -10,6 +10,7 @@ import styles from "./App.css";
 import Login from "./components/Login/Login";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Browse from "./components/Browse/Browse";
+import Test from "./components/Dashboard/Test";
 import UserContext from './context/UserContext';
 
 // this section configures the app for firebase authentication
@@ -88,6 +89,9 @@ export default function App() {
               <PrivateRoute path="/browse">
                 <Browse />
               </PrivateRoute>
+              <Route path="/test">
+                <Test />
+              </Route>
               <Route>
                 <div>
                   <h1>404 not found</h1>

@@ -10,27 +10,24 @@ import useApi from '../../hooks/useApi';
 import axios from 'axios';
 
 export default function Browse(props) {
-  const [input, setInput] = useState("")
-  const [{ data, isLoading, isError }, setUrl] = useApi(`/api/v1/products/pak?name=bread`);
-
   // get shop querystring
   const urlParams = new URLSearchParams(window.location.search);
-  const shop = urlParams.get('shop')
+  const shop = urlParams.get('shop');
+  const name = urlParams.get('name')
+  const [input, setInput] = useState(name)
 
-
+  const [{ data, isLoading, isError }, setUrl] = useApi(`/api/v1/products/${shop}?name=${name}&limit=10`);
+  
   function onSearch(event) {
-    setUrl(`/api/v1/products/${shop}?name=${input}`)
+    setUrl(`/api/v1/products/${shop}?name=${input}&limit=10`)
     console.log(data)
     event.preventDefault();
-  }
-
-  const handleSubmit = () => {
-    alert('test');
   }
 
   if (isLoading) {
     return <div>Loading...</div>
   } else {
+    console.log(input)
     return (
       <div>
         <Header setInput={setInput} onSearch={onSearch} isBrowse={true} />
@@ -45,7 +42,7 @@ export default function Browse(props) {
           <div className="container">
             <section className={styles.cardGrid}>
               {data.map((item) =>
-                <Card name={item.name} img={item.img} price={item.price} volumeSize={item.volumeSize} href='/' onClick={console.log('test')}/>
+                <Card id={item.id} name={item.name} img={item.img} price={item.price} volumeSize={item.volumeSize} href='/' />
               )}
             </section>
           </div>

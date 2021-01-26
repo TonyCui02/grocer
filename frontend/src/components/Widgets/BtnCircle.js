@@ -41,9 +41,6 @@ export default function BtnCircle(props) {
         <div className={styles.menuBottom}>
           <ul className={styles.dropdownMenu}>
             <li className={styles.item}>
-              <a>My Account</a>
-            </li>
-            <li className={styles.item}>
               <a href="/" onClick={props.logout}>Sign Out</a>
             </li>
           </ul>

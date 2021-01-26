@@ -1,5 +1,4 @@
-import styles from "./DashboardCard.module.css";
-import React, {useState} from "react";
+import React, { useState, useEffect } from "react";
 
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
@@ -12,7 +11,7 @@ import axios from 'axios';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    height: "344px",
+    height: "auto",
     backgroundColor: "var(--bg-grey)",
   },
   content: {
@@ -37,30 +36,30 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-// export default function DashboardCard(props) {
-//   return (
-//     <div className={styles.wrapper}>
-//       <div className={styles.items}>{props.children}</div>
-//     </div>
-//   );
-// }
 
 export default function DashboardCard(props) {
   const classes = useStyles();
   const [isDelete, setIsDelete] = useState(false)
-  const [name, setName] = useState(props.data.name)
+  const [name, setName] = useState(props.data.name);
 
-  const handleDelete = () => {
+  function handleDelete() {
     axios.delete(`/api/v1/items/${props.data._id}`);
   }
 
   function handleChange(event) {
     setName(event.target.value);
-    console.log(name)
-    axios.put(`/api/v1/items/${props.data._id}`, {
-      'name': name
-    })
   }
+
+  useEffect(() => {
+
+    const updateName = async () => {
+      await axios.put(`/api/v1/items/${props.data._id}`, {
+        'name': name
+      })
+    };
+    updateName();
+
+  }, [name])
 
   return (
     <Card className={classes.root}>

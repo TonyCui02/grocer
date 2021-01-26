@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
@@ -7,8 +7,8 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import axios from "axios";
 
-import useApi from '../../hooks/useApi';
 
 const useStyles = makeStyles({
   root: {
@@ -29,14 +29,40 @@ const useStyles = makeStyles({
 
 export default function MediaCard(props) {
   const classes = useStyles();
-  const [isDisabled, setIsDisabled] = useState(false); 
-  const [{ data, isLoading, isError }, setUrl] = useApi();
+  const [isDisabled, setIsDisabled] = useState(false);
 
-  useEffect(() => {
-    setUrl(`/api/v1/products/${props.shop}?id=${props.id}`);
-  }, [])
+  function changeProduct() {
 
-  console.log(data)
+    const urlParams = new URLSearchParams(window.location.search);
+    const shop = urlParams.get('shop');
+    const id = urlParams.get('id');
+
+    const fetch = async () => {
+      console.log(props.id)
+      if (shop == "count") {
+        await axios.put(`/api/v1/items/${id}`, {
+          count_id: `${props.id}`
+        })
+      } else {
+        await axios.put(`/api/v1/items/${id}`, {
+          pak_id: `${props.id}`
+        })
+      }
+    }
+
+    fetch();
+  }
+
+  function capitalize(words) {
+    var separateWord = words.toLowerCase().split(' ');
+    for (var i = 0; i < separateWord.length; i++) {
+       separateWord[i] = separateWord[i].charAt(0).toUpperCase() +
+       separateWord[i].substring(1);
+    }
+    return separateWord.join(' ');
+ }
+
+
 
   return (
     <Card className={classes.root}>
@@ -49,8 +75,8 @@ export default function MediaCard(props) {
           title="Product image"
         />
         <CardContent>
-          <Typography gutterBottom variant="body1" component="h2">
-            {props.name}
+          <Typography gutterBottom variant="h6" component="h2">
+            {capitalize(props.name)}
           </Typography>
           <Typography variant="body1" color="textSecondary" component="p">
             {props.volumeSize}
@@ -61,32 +87,10 @@ export default function MediaCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button disabled={isDisabled} href={props.href} variant="contained" color="primary" className={classes.button}  onClick={() => { setIsDisabled(true); }}>
+        <Button disabled={isDisabled} href={props.href} variant="contained" color="primary" className={classes.button} onClick={() => { setIsDisabled(true); changeProduct(); }}>
           Select Item
         </Button>
       </CardActions>
     </Card>
   );
 }
-
-// export default function Card(props) {
-//   return (
-//     <div className={styles.card}>
-//       <div className={styles.body}>
-//         <img
-//           alt="img"
-//           src="https://a.fsimg.co.nz/product/retail/fan/image/200x200/5017010.png"
-//         />
-//         <div className={styles.text}>
-//           <h5>Nature fresh toast bread</h5>
-//           <p className={styles.size}>650g</p>
-//           <p className={styles.pricePerUnit}>$2.80/1EA</p>
-//           <h1 className={styles.price}>$2.80</h1>
-//         </div>
-//       </div>
-//       <div className={styles.buttonWrapper}>
-//           {props.children}
-//       </div>
-//     </div>
-//   );
-// }

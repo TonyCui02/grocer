@@ -3,29 +3,47 @@ import styles from "./Dashboard.module.css";
 
 import Header from "../Common/Header";
 import DashboardCard from "./DashboardCard";
-import Card from "../Widgets/Card";
+import LiveCard from "../Widgets/LiveCard";
 import Button from "../Widgets/Button";
 import Footer from "../Common/Footer";
 
 import axios from "axios";
 
 import { Redirect } from "react-router-dom";
-import useApi from "../../hooks/useApi";
 import UserContext from '../../context/UserContext';
-import FindDetails from './FindDetails';
+import useApi from '../../hooks/useApi';
+
 
 export default function Dashboard() {
-  const [{ data, isLoading, isError }, setUrl] = useApi();
   const user = useContext(UserContext)
+  const [{ data, isLoading, isError }, setUrl] = useApi();
+  const [countTotal, setCountTotal] = useState(0);
+  const [pakTotal, setPakTotal] = useState(0);
+
+
+  function setTotal(shop, price) {
+    if (price != null) {
+      if (shop == 'count') {
+        console.log(shop, price)
+        setCountTotal(countTotal + parseFloat(price));
+      } else {
+        setPakTotal(pakTotal + parseFloat(price));
+      }
+    } else {
+      return;
+    }
+  }
 
   useEffect(() => {
-    setUrl(`/api/v1/items?user=${user.uid}`);
-  }, [])
+    if (user) {
+      setUrl(`/api/v1/items?user=${user.uid}`);
+    }
+  })
+
 
   if (isLoading) {
     return <div>Loading...</div>;
   } else {
-    console.log(data)
     return (
       <div className={styles.dashboard}>
         <Header />
@@ -49,8 +67,8 @@ export default function Dashboard() {
             <div className={styles.itemGrid}>
               {data.map((item) => (
                 <DashboardCard data={item}>
-                  <Card shop="count" id={item.count_id} href={`/browse?shop=count`} />
-                  <Card shop="pak" id={item.pak_id} href={`/browse?shop=pak`} />
+                  <LiveCard setTotal={setTotal} shop="count" id={item.count_id} href={`/browse?shop=count&id=${item._id}&name=${item.name}`} changeProduct={false} />
+                  <LiveCard setTotal={setTotal} shop="pak" id={item.pak_id} href={`/browse?shop=pak&id=${item._id}&name=${item.name}`} changeProduct={false} />
                 </DashboardCard>
               ))}
             </div>
@@ -69,15 +87,13 @@ export default function Dashboard() {
               </div>
               <div className={styles.row}>
                 <span className={styles.shop}>
-                  <h1>$43.8</h1>
+                  <h1>${Math.round(countTotal * 100) / 100}</h1>
                 </span>
                 <span className={styles.shop}>
-                  <h1>$98.7</h1>
+                  <h1>${Math.round(pakTotal * 100) / 100}</h1>
                 </span>
               </div>
             </div>
-
-            <div>{`${data}`}</div>
           </main>
         </div>
 

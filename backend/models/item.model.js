@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 const itemSchema = new Schema({
     user: {type: String, required: true},
-    name: {type: String, required: true},
+    name: {type: String },
     count_id: {type: String, required: true},
     pak_id: {type: String, required: true}
 }, {
